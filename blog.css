@@ -12,11 +12,13 @@
 
 .menu{
     display: flex;
-    justify-content: space-around;
-    padding: 15px 90px;
-    font-size: 25px;
-    font-family: "Copperplate", fantasy;
-    letter-spacing: 2px;
+    justify-content: space-evenly;
+    width: 900px;
+    margin: auto;
+    padding: 15px 0px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 900;
 }
 .menu a{
     text-decoration: none;
@@ -26,8 +28,7 @@
     color: #59d5c9;
 }
 
-.grew_mustache a, .country a, 
-.mustache_bros a{
+.grew_mustache a, .country a, .mustache_bros a{
     color: black;
 }
 
