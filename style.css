@@ -91,3 +91,30 @@
 .main button:hover{
     background-color: #333;
 }
+
+.gallery{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Copperplate", fantasy;
+    letter-spacing: 2px;
+}
+.gallery img{
+    border: 2px solid #333;
+    margin-right: 50px;
+}
+.gallery p{
+    margin-right: 50px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    color: white;
+    padding: 50px 100px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
