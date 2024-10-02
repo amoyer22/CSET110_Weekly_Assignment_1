@@ -3,19 +3,22 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: Odense Book;
+    src: url(images/OdenseBook.ttf);
+}
+
 .logo{
     display: flex;
     justify-content: center;
-    margin: auto;
-    padding: 30px;
+    margin: 20px auto;
 }
 
 .menu{
     display: flex;
     justify-content: space-evenly;
-    width: 900px;
-    margin: auto;
-    padding: 15px 0px;
+    width: 700px;
+    margin: 50px auto;
     font-size: 18px;
     font-family: sans-serif;
     font-weight: 900;
@@ -30,15 +33,17 @@
 
 .main{
     background-image: url("images/the-beacon.jpg");
-    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-size: contain;
     margin-top: 30px;
     padding: 60px 100px;
     border: 2px solid #333;
     overflow: hidden;
+    height: 730px;
 }
 .mainContainer{
     margin-left: auto;
-    margin-right: 0;
+    margin-right: 200px;
     float: right;
 }
 .main h2{
@@ -46,10 +51,11 @@
     background-color: white;
     margin: 15px;
     padding: 15px;
-    width: 370px;
-    font-size: 25px;
-    font-family: "Copperplate", fantasy;
+    width: 440px;
+    font-size: 22px;
+    font-family: "Odense Book";
     letter-spacing: 2px;
+    text-align: center;
 }
 .p1{
     display: inline-block;
@@ -59,7 +65,8 @@
     padding: 15px;
     width: 380px;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
+    text-align: center;
 }
 .p2{
     display: block;
@@ -69,7 +76,8 @@
     padding: 15px;
     width: 430px;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: Arial;
+    text-align: center;
 }
 .p3{
     display: block;
@@ -79,7 +87,8 @@
     padding: 15px;
     width: 350px;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: Arial;
+    text-align: center; 
 }
 .main button{
     background-color: #59d5c9;
@@ -88,7 +97,7 @@
     margin: 15px;
     padding: 15px;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: Arial; 
 }
 .main button:hover{
     background-color: #333;
@@ -124,4 +133,9 @@
 }
 .copyright{
     margin-right: 700px;
+}
+.footer-logos{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }

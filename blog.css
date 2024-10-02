@@ -3,19 +3,22 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: Odense Book;
+    src: url(images/OdenseBook.ttf);
+}
+
 .logo{
     display: flex;
     justify-content: center;
-    margin: auto;
-    padding: 30px;
+    margin: 20px auto;
 }
 
 .menu{
     display: flex;
     justify-content: space-evenly;
-    width: 900px;
-    margin: auto;
-    padding: 15px 0px;
+    width: 700px;
+    margin: 50px auto;
     font-size: 18px;
     font-family: sans-serif;
     font-weight: 900;
@@ -32,14 +35,16 @@
     color: black;
 }
 
-header{
-    display: flex;
-    justify-content: center;
-    font-size: 40px;
+.header{
+    background-color: #262626;
     color: white;
-    background-color: black;
-    width: 225px;
-    margin: 20px auto;
+    margin: 60px auto 20px auto;
+    width: 220px;
+    font-size: 30px;
+    font-family: "Odense Book";
+    letter-spacing: 6px;
+    text-align: center;
+    padding: 15px;
 }
 
 .blog{
@@ -48,12 +53,20 @@ header{
 .content{
     padding: 45px 30px;
     text-align: center;
+    font-family: Arial;
+}
+.content h3{
+    font-size: 25px;
+    font-weight: 900;
+}
+.content p{
+    font-size: 15px;
 }
 
 .grew_mustache{
     display: flex;
     justify-content: center;
-    width: 970px;
+    width: 1000px;
     height: 300px;
     margin: 10px auto;
 }
@@ -66,7 +79,7 @@ header{
 .country{
     display: flex;
     justify-content: center;
-    width: 970px;
+    width: 1000px;
     height: 300px;
     margin: 10px auto;
 }
@@ -79,7 +92,7 @@ header{
 .mustache_bros{
     display: flex;
     justify-content: center;
-    width: 970px;
+    width: 1000px;
     height: 300px;
     margin: 10px auto;
 }
@@ -92,8 +105,10 @@ header{
 button{
     background-color: black;
     color: white;
-    padding: 3px 20px;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: 900;
+    height: 40px;
+    width: 170px;
 }
 button:hover{
     background-color: white;
@@ -113,4 +128,9 @@ button:hover{
 }
 .copyright{
     margin-right: 700px;
+}
+.footer-logos{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }
