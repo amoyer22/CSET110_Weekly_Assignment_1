@@ -26,7 +26,73 @@
     color: #59d5c9;
 }
 
+header{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    width: 225px;
+    margin: 20px auto;
+}
 
+.blog{
+    border: solid 2px black;
+}
+.content{
+    padding: 45px 30px;
+    text-align: center;
+}
+
+.grew_mustache{
+    display: flex;
+    justify-content: center;
+    width: 970px;
+    height: 300px;
+    margin: 10px auto;
+}
+.img1{
+    background-image: url(images/cutting-mustache.jpg);
+    background-size: cover;
+    min-width: 400px;
+}
+
+.country{
+    display: flex;
+    justify-content: center;
+    width: 970px;
+    height: 300px;
+    margin: 10px auto;
+}
+.img2{
+    background-image: url(images/in-the-country.jpg);
+    background-size: cover;
+    min-width: 400px;
+}
+
+.mustache_bros{
+    display: flex;
+    justify-content: center;
+    width: 970px;
+    height: 300px;
+    margin: 10px auto;
+}
+.img3{
+    background-image: url(images/mustache-brothers.jpg);
+    background-size: cover;
+    min-width: 400px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 3px 20px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
 
 .footer{
     display: flex;
