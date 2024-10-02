@@ -57,6 +57,11 @@
     line-height: 30px;
 }
 
+.free_templates a, .more_templates a,
+.community a, .details a{
+    color: black;
+}
+
 .footer{
     display: flex;
     justify-content: center;
